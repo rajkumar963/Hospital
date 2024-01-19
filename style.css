@@ -1,0 +1,318 @@
+.logo img{
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    display: inline;
+    
+} 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+nav{
+    align-items: center;
+    display: flex;
+    background-color: white; /* Adjust the color as needed */
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    /* background-color: rgb(147, 224, 198); */
+    }
+    ul{
+        display: flex;
+        margin-left: auto; /* Push the list to the right */
+        
+    }
+    ul li{
+        list-style: none;
+        
+    
+    }
+    .site-title h1 {
+        color: rgb(48, 48, 156);
+        font-size: 20px;
+        margin: 0;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+     
+    ul li a{
+       
+        text-decoration: none;
+    color:black;
+    font-size: 16px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    }
+    .logo{
+        
+        
+        font: bold 24px/1 sans-serif;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    
+
+}
+ .h1{
+    
+    color: blue;
+    font-size: 15px;
+    width: 40px;
+    margin-left: 0%;
+}
+ul li a{
+   
+    text-decoration: none;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-inline: 15px;
+    text-transform: uppercase;
+}
+.logo{
+    
+    
+    font: bold 24px/1 sans-serif;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 65px;
+    
+}
+
+.hospital{
+width: 50%;
+height: 400px;
+margin-top: 10px;
+background-color: #bff7f1;
+text-align: center;
+}
+.search img{
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+    border-radius: 50%;
+}
+.search input{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.search button{
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(3, 244, 164);
+    font-size: 20px;
+}
+.patient{
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #98c7b3;
+     
+}
+.patient img{
+    width: 230px;
+    height: 230px;
+    padding-top: 50px;
+    border-radius: 50%;
+}
+.patient p{
+    font-size: 25px;
+    color: rgb(3, 2, 7);
+    font-weight: 600;
+    border-radius:5px ;
+}
+.patient a{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    padding: 50px;
+} 
+
+
+
+
+.main-text button{
+    margin-top: 15px;
+    background-color: rgb(134, 252, 213);
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+}
+.about{
+    text-align: center;
+    margin-top: 30px;
+}
+.about p{
+    margin-top: 20px;
+}
+.head{
+    text-align: center;
+    padding: 45px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service .service-card{
+    width: 150px;
+    height: 180px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+    margin-inline:10px ;
+    border-radius: 15px;
+    background-color: rgb(211, 215, 214);
+}
+.service-card img{
+    height: 130px;
+    width: 150px;
+}
+
+.doctor{
+    width: 950px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+
+}
+.team{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    transition: all 1s ease;
+    z-index: -1;
+    /* background-color: rgb(152, 217, 195); */
+}
+.team img{
+    width: 230px;
+    height: 230px;
+    margin-inline:20px ;
+
+}
+
+.News{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.News .Newscard{
+    width: 230px;
+    height: 230px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+    margin-inline:10px ;
+    border-radius: 15px ;
+    background-color: rgb(167, 222, 204);
+}
+.form{
+    width: 240px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(148, 155, 154);
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+.form input{
+    width: 70%;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    
+} 
+.form button{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgb(15, 222, 153);
+    font-weight:500px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 101, 86);
+    padding: 20px;
+    margin-top: 15px;
+    height: 250px;
+
+}
+.text{
+    padding: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+.text p{
+    justify-content: space-between;
+    padding: 7px;
+   
+}
+.text a{
+    justify-content: space-between;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.why{
+    text-align: center;
+    color: rgb(17, 17, 115);
+    margin-top: 25px;
+  }
+  
+  
+  .container1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+  
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
