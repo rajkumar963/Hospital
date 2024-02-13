@@ -102,7 +102,7 @@ ul li a{
 width: 50%;
 height: 400px;
 margin-top: 10px;
-background-color: #bff7f1;
+background-color: linear-gradient(rgb(255,255,255),rgb(255,255,255));
 text-align: center;
 }
 .search img{
@@ -129,7 +129,7 @@ text-align: center;
     height: 400px;
     margin-top: 10px;
     text-align: center;
-    background-color: #98c7b3;
+    background-color: linear-gradient(rgb(255,255,255),rgb(255,255,255));
      
 }
 .patient img{
