@@ -14,4 +14,4 @@ setInterval(function(){
         count=0;
     }
     myFun()
-},3000)
+}, 3000);
